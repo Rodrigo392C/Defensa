@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header.logo {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav.menu {
+    background-color: #34687f;
+    text-align: center;
+    padding: 35px;
+    margin: 10px 0;
+}
+
+.slider {
+    background-color: #6d6d6d;
+    padding: 90px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-wrapper {
+    display: flex;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.tabla {
+    flex: 3;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cards {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo {
+    background-color: #34687f;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tarjeta1 {
+    background-color: #505050;
+    padding: 50px;
+    border-radius: 5px;
+}
+.tarjeta2 {
+    background-color: #000000;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+
+.bottom-wrapper {
+    display: flex;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.tabla2 {
+    flex: 3;
+    background-color: #747474;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.right-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resumen {
+    background-color: #102660;
+    padding: 70px;
+    border-radius: 5px;
+}
+
+.formulario {
+    background-color: #ff0000;
+    padding: 70px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.footer-item {
+    background-color: #000000;
+    padding: 50px;
+    flex: 1;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+}
